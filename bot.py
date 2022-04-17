@@ -27,7 +27,7 @@ auth = tweepy.OAuth1UserHandler(
 # accesses api
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
-INTERVAL = 60 * 6 * 6 # 6 hours for testing
+INTERVAL = 60 # * 6 * 6 # 6 hours for testing
 
 # main code
 while True:
